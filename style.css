@@ -5,27 +5,27 @@
   font-family: Lato, sans-serif;
 }
 
-.main-img-container {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.main-img-container img {
+.matrix__img {
   width: 100%;
 }
 
-.more-inf {
+.matrix__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .main-img-container { text-align: center;
+  .matrix { text-align: center;
 }
 }
 
-.main-element {
+.forms {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -37,7 +37,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.forms__task-row {
   display: flex;
 }
 
@@ -71,7 +71,7 @@ button:hover {
 
 /* Heading */
 
-.title,
+.forms__title,
 label[for="new-task"] {
   display: block;
   color: #333;
